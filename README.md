@@ -112,7 +112,7 @@ _Nice work setting the theme! :sparkles:_
 You can customize your homepage by adding content to either an `index.md` file or the `README.md` file. GitHub Pages first looks for an `index.md` file. Your repository has an `index.md` file so we can update it to include your personalized content.
 
 ### :keyboard: Activity: Create your homepage
-
+_emph_
 1. Browse to the `index.md` file in the `my-pages` branch.
 1. In the upper right corner, open the file editor.
 1. Type the content you want on your homepage. You can use Markdown formatting on this page.
