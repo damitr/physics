@@ -113,6 +113,8 @@ You can customize your homepage by adding content to either an `index.md` file o
 
 ### :keyboard: Activity: Create your homepage
 
+_here_
+  
 1. Browse to the `index.md` file in the `my-pages` branch.
 1. In the upper right corner, open the file editor.
 1. Type the content you want on your homepage. You can use Markdown formatting on this page.
