@@ -5,6 +5,14 @@ MathJax.Hub.Config({
         autoNumber: "AMS"
       }
     },
+	window.MathJax = {
+	  loader: {load: ['[tex]/physics']},
+	  tex: {packages: {'[+]': ['physics']}}
+	};
+	window.MathJax = {
+	  loader: {load: ['[tex]/mathtools']},
+	  tex: {packages: {'[+]': ['mathtools']}}
+	};
     tex2jax: {
     inlineMath: [ ['$','$'], ["\\(","\\)"] ],
     displayMath: [ ['$$', '$$'], ["\\[]","\\]"] ],
@@ -17,14 +25,6 @@ MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
 MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
 	  alert("Math Processing Error: "+message[1]);
 	});
-	window.MathJax = {
-	  loader: {load: ['[tex]/physics']},
-	  tex: {packages: {'[+]': ['physics']}}
-	};
-	window.MathJax = {
-	  loader: {load: ['[tex]/mathtools']},
-	  tex: {packages: {'[+]': ['mathtools']}}
-	};
 </script>
 <script type="text/javascript" async
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
