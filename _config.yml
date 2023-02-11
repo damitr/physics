@@ -1,6 +1,4 @@
-remote_theme: pages-themes/cayman@v0.2.0
-plugins:
-- jekyll-remote-theme
+theme: minima
 title: A physics blog
 description: A place to discuss problems, perspectives and philosophy of physics
 author: Damitr
