@@ -28,7 +28,7 @@ Now in Figure 17, a charged rod is brought near the electroscope. This charged r
 
 ### 1.8.2. An electroscope is charged by induction with the help of a glass rod. How will electrons be displaced in this case?
 
-A glass rod when charged by rubbing will get a negative charge. When it is touched 
+A glass rod when charged by rubbing will get a negative charge. When it is brought near an electroscope, it will induce positive charges on the ball of the electroscope.
 
 ### 1.8.3. A neutral metallic body is brought close to the ball of a charged electroscope, without touching it. How will the divergence of the leaves change? Explain the phenomenon.
 
