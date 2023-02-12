@@ -1,14 +1,13 @@
 ---
 layout: post
 mathjax: true
-comments: true
 title: "Charging by Induction"
 tags: physics, electricity, charges, "charging by induction"
 date: 2023-02-12
 ---
 [# Landsberg - Elementary Textbook of Physics Vol 2 - Mir - 1988](https://archive.org/details/LandsbergElementaryTextbookOnPhysicsVol2Mir1988)
 
-## Chapter 1
+## Chapter 1 Electric Charges
 
 ### 1.8.1 Explain the method of determining the sign of the charge on electroscope, shown in Fig. 17.
 
@@ -36,6 +35,8 @@ Let us suppose that the electroscope is charged positively. **In the case of cha
 
 ### 1.8.4. A negatively charged body is brought to a positively charged electroscope. As the body approaches the electroscope, the divergence of its leaves decreases to zero. At a closer approach, however, a divergence is observed again. What processes occur in this case?
 
-When a negatively charged body is brought near a positively charged electroscope, it will induce positive charges on the ball of the electroscope and negative charges on the leaves. This will increase the net positive charge on the ball (as both induced and original charges are positive), and will decrease the net positive charge on the leaves (as induced charges are negative and original charges are positive). At a certain stage during the approach of negatively charged body (if the charge is much greater than the charge on the electroscope), the induced negative charges will be equal to the 
+When a negatively charged body is brought near a positively charged electroscope, it will induce positive charges on the ball of the electroscope and negative charges on the leaves. This will increase the net positive charge on the ball (as both induced and original charges are positive), and will decrease the net positive charge on the leaves (as induced charges are negative and original charges are positive). At a certain stage during the approach of negatively charged body (if the charge is much greater than the charge on the electroscope), the induced negative charges will be equal to the original charges. This is the time when the divergence of the leaves becomes zero. As the negatively charged body still approaches further it will induce more negative charges in the leaves, which are greater than the original positive charges. It is due to these negative induced charges, the leaves will diverge again.
 
 ### 1.8.5. When a hand approaches a charged load suspended on a silk thread, the load is attracted to it. Why does this happen?
+
+The charged load suspended on a silk thread is an insulated body. When we approach this charged body with a neutral body, such as our hand, it will induce charges on the neutral body. The induced charges on the hand will be opposite of the charged load. Due to the opposite nature of the charges, there will be an attraction between the two. Hence, the load is attracted to the hand.
