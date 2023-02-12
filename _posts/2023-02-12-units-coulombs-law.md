@@ -12,9 +12,23 @@ date: 2023-02-12
 
 ### 1.11.1. What is the force of attraction between two unlike charges of $1 \, \mu C$ each placed at a distance of $0.3 \, m$ from each other?
 
+The force of attraction $F$ between two charges is given by 
+$$
+F = \frac{1}{4 \pi \epsilon_{0}}\frac{q_{1}q_{2}}{r^{2}}
+$$
+in this case, $q_{1} = q_{2} = 1 \, \mu C$ and $r = 0.3 \, m$. Hence 
+\begin{align}
+F & = \frac{1}{4 \pi \epsilon_{0}}\frac{1 \, \mu \times 1 \, \mu \, C^{2}}{ (0.3 \, m)^{2}\, m^{2}} \\
+& = \frac{9 \times 10^{9} \, N \, m^{2}/C^{2} \times 10^{-12} \, C^{2}} {9 \times 10^{-2} \, m^{2}} \\
+& = 0.1 \, N
+\end{align}
+
+
 ### 1.11.2. A pith ball suspended on a silk thread has a charge of $10 \, nC$. Another ball carrying the same charge is suspended at the same height at a certain distance from the first ball (Fig. 20). As a result of mutual repulsion, the balls diverge apart by $10\, cm$. By what angle are their threads declined from the vertical? The mass of each ball is $0.1\, g$. 
 
 ![Figure 20: To Exercise 1.11.2. To find the angle of threads from the vertical](/physics/assets/figs/landsberg/vol-2/ch-01/charge-repulsion.jpg)
+
+
 
 
 ### 1.11.3. Two identical pith balls are suspended from the same hook and electrostatically charged. As a result, they are deflected from the vertical by an angle of ${5.7}^{\circ}$. The length of the threads is  $1\, m$, the mass of each ball is $1\, g$. What is the charge on each ball? 
