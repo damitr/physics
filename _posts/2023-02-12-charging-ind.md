@@ -32,7 +32,7 @@ A glass rod when charged by rubbing will get a negative charge. When it is broug
 
 ### 1.8.3. A neutral metallic body is brought close to the ball of a charged electroscope, without touching it. How will the divergence of the leaves change? Explain the phenomenon.
 
-Let us suppose that the electroscope is charged positively. When a neutral metallic body is brought close to the ball of the electroscope, it will create negative induced charges (opposite to the charge on the electroscope) on the body. Because of this 
+Let us suppose that the electroscope is charged positively. When a neutral metallic body is brought close to the ball of the electroscope, it will create negative induced charges (opposite to the charge on the electroscope) on the body. Because of this induced negative charge on the body there will be extra positive charge on the ball. 
 
 ### 1.8.4. A negatively charged body is brought to a positively charged electroscope. As the body approaches the electroscope, the divergence of its leaves decreases to zero. At a closer approach, however, a divergence is observed again. What processes occur in this case?
 
