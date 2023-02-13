@@ -3,7 +3,7 @@ layout: post
 mathjax: true
 comments: true
 title: "Units of charge, Coulomb's Law"
-tags: physics, electricity, charge, "Coulomb's law", units
+tags: ["physics", "electricity", "electric charge", "Coulomb's law", "units"]
 date: 2023-02-12
 ---
 [# Landsberg - Elementary Textbook of Physics Vol 2 - Mir - 1988](https://archive.org/details/LandsbergElementaryTextbookOnPhysicsVol2Mir1988)
@@ -28,7 +28,7 @@ F & = \frac{1}{4 \pi \epsilon_{0}}\frac{1 \, \mu \times 1 \, \mu \, C^{2}}{ (0.3
 
 ![Figure 20: To Exercise 1.11.2. To find the angle of threads from the vertical](/physics/assets/figs/landsberg/vol-2/ch-01/charge-repulsion.jpg)
 
-
+Since the balls have the same charge they will repel each other with force given by Coulomb's law. This force will create the divergence in the balls from the vertical, that is, the total force on the balls will be equal to sum of gravitational force acting vertically downwards and electric force acting horizontally.
 
 
 ### 1.11.3. Two identical pith balls are suspended from the same hook and electrostatically charged. As a result, they are deflected from the vertical by an angle of ${5.7}^{\circ}$. The length of the threads is  $1\, m$, the mass of each ball is $1\, g$. What is the charge on each ball? 
