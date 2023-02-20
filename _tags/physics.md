@@ -1,4 +1,5 @@
 ---
-layout: tags
-tag-name: physics
+layout: tagpage
+title: "Tag: physics"
+tag: physics
 ---
