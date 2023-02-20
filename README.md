@@ -34,3 +34,5 @@ What is the philosophy of physics? How does it affect how we do physics?
 ## Pedagogy
 
 How do we teach physics? What are the problems that physics learners face?  
+
+The site uses Edward Tufte inspired css theme [tufte.css](https://github.com/edwardtufte/tufte-css)
