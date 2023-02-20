@@ -288,6 +288,9 @@ img {
     vertical-align: baseline;
     position: relative;
 }
+.page-content {
+width: 55%;
+}
 
 .sidenote-number {
     counter-increment: sidenote-counter;
