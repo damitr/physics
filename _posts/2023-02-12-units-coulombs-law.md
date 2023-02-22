@@ -12,7 +12,7 @@ date: 2023-02-12
 
 ### 1.11.1. What is the force of attraction between two unlike charges of $\SI{1}{\micro\coulomb}$ \( \SI{1}{\micro\coulomb} \) each placed at a distance of \SI{0.3}{\meter} from each other?
 
-The force of attraction $F$ between two charges is given by 
+The force of attraction \( F \) between two charges is given by 
 \begin{equation}
 F = \frac{1}{4 \pi \epsilon_{0}}\frac{q_{1}q_{2}}{r^{2}}
 \end{equation}
@@ -41,7 +41,7 @@ F & = \frac{1}{4 \pi \epsilon_{0}}\frac{10 \, \times 10 \, \, nC^{2}}{ (10 \, cm
 
 
 
-### 1.11.3. Two identical pith balls are suspended from the same hook and electrostatically charged. As a result, they are deflected from the vertical by an angle of ${5.7}^{\circ}$. The length of the threads is  $1\, m$, the mass of each ball is $1\, g$. What is the charge on each ball? 
+### 1.11.3. Two identical pith balls are suspended from the same hook and electrostatically charged. As a result, they are deflected from the vertical by an angle of ${5.7}^{\circ}$ \ang{5.7}. The length of the threads is  $1\, m$, the mass of each ball is $1\, g$. What is the charge on each ball? 
 
 ### 1.11.4. The charge of an electron is $1.60 \times 10^{-19}\, C$. Suppose that from each molecule of water contained in one litre an electron has been tom off and all the electrons are removed from the ions to a distance equal to that between the poles of the Earth, i.e. $12,800\, km$. What would be the force of attraction between these charges? Recall that the number of molecules in a mole of a substance is $6.02 \times 10^{23}$.
 
