@@ -10,13 +10,13 @@ date: 2023-02-12
 
 ## Chapter 1 Electric Charges
 
-### 1.11.1. What is the force of attraction between two unlike charges of $\SI{1}{\micro\coulomb}$ $$ \SI{1}{\micro\coulomb} $$ each placed at a distance of \SI{0.3}{\meter} from each other?
+### 1.11.1. What is the force of attraction between two unlike charges of $$\SI{1}{\micro\coulomb}$$ $$ \SI{1}{\micro\coulomb} $$ each placed at a distance of \SI{0.3}{\meter} from each other?
 
 The force of attraction $$ F $$ between two charges is given by 
 \begin{equation}
 F = \frac{1}{4 \pi \epsilon_{0}}\frac{q_{1}q_{2}}{r^{2}}
 \end{equation}
-in this case, \( q_{1} = q_{2} = 1 \, \mu C \) and \( r = \SI{0.3}{\meter} \). Hence 
+in this case, $$ q_{1} = q_{2} = 1 \, \mu C $$ and $$ r = \SI{0.3}{\meter} $$. Hence 
 \begin{align}
 F & = \frac{1}{4 \pi \epsilon_{0}}\frac{1 \, \mu \times 1 \, \mu \, C^{2}}{ (0.3 \, m)^{2}\, m^{2}} \\
 & = \frac{9 \times 10^{9} \, N \, m^{2}/C^{2} \times 10^{-12} \, C^{2}} {9 \times 10^{-2} \, m^{2}} \\
