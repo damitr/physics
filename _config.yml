@@ -2,4 +2,5 @@ theme: minima
 title: A physics blog
 description: A place to discuss principles, problems, perspectives, practices, philosophy and pedagogy of physics
 author: Damitr
+markdown: kramdown
 
