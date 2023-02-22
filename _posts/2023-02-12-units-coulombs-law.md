@@ -29,9 +29,10 @@ F & = \frac{1}{4 \pi \epsilon_{0}}\frac{1 \, \mu \times 1 \, \mu \, C^{2}}{ (0.3
 ![Figure 20: To Exercise 1.11.2. To find the angle of threads from the vertical](/physics/assets/figs/landsberg/vol-2/ch-01/charge-repulsion.jpg)
 
 Since the balls have the same charge they will repel each other with force given by Coulomb's law. This force will create the divergence in the balls from the vertical, that is, the total force on the balls will be equal to sum of gravitational force acting vertically downwards and electric force acting horizontally. Let us first calculate the repelling force between the two balls given by Coulomb's Law.
-\begin{equation}
+
+$$
 F = \frac{1}{4 \pi \epsilon_{0}}\frac{q_{1}q_{2}}{r^{2}}
-\end{equation}
+$$
 in this case, $q_{1} = q_{2} = 1 \, nC$ and $r = 10 \, cm$. Hence 
 \begin{align}
 F & = \frac{1}{4 \pi \epsilon_{0}}\frac{10 \, \times 10 \, \, nC^{2}}{ (10 \, cm)^{2}\, m^{2}} \\
