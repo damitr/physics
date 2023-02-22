@@ -5,23 +5,13 @@ MathJax.Hub.Config({
         autoNumber: "AMS"
       }
     },
-
-	    config: ["Accessible.js", "Safe.js"],
-	TeX: {extensions: ["AMSmath.js","AMSsymbols.js","mhchem.js","chemfig.js","physics.js","siunitx.js","noErrors.js","noUndefined.js"]},
-	    skipStartupTypeset: true,
-	    messageStyle: "none",
- errorSettings: { message: ["!"] },
+	TeX: {extensions: ["AMSmath.js","AMSsymbols.js","mhchem.js","chemfig.js","physics.js","siunitx.js"]},
+	
     tex2jax: {
-	    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-	    displayMath: [ ['$$', '$$'], ["\\[","\\]"] ],
+    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+    displayMath: [ ['$$', '$$'], ["\\[","\\]"] ],
     processEscapes: true,
   }
 });
-
-
-MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
-	  alert("Math Processing Error: "+message[1]);
-	});
-MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
-	  alert("Math Processing Error: "+message[1]);
-	});
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
