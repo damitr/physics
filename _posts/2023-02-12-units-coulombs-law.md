@@ -10,7 +10,7 @@ date: 2023-02-12
 
 ## Chapter 1 Electric Charges
 
-### 1.11.1. What is the force of attraction between two unlike charges of $1 \, \mu C$ each placed at a distance of $0.3 \, m$ from each other?
+### 1.11.1. What is the force of attraction between two unlike charges of \SI{1}{\micro\coulomb} each placed at a distance of \SI{0.3}{\meter} from each other?
 
 The force of attraction $F$ between two charges is given by 
 \begin{equation}
