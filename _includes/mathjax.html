@@ -1,9 +1,11 @@
 <script>
 window.MathJax = {
-  loader: {load: ['[tex]/physics']},
+  loader: {load: ['[tex]/physics'], ['[tex]/boldsymbol'], ['[tex]/color'], ['[tex]/gensymb']},
   tex: {
-    packages: {'[+]': ['physics']},
+    packages: {'[+]': ['physics'], ['boldsymbol'], ['color'], ['gensymb']},
     tags: "ams",
+	autoload: {
+		gensymb: ['celsius', 'degree', 'micro', 'ohm', 'perthousand']},
     inlineMath: [ ['$','$'], ["\\(","\\)"] ],
     displayMath: [ ['$$', '$$'], ["\\[","\\]"] ],
     processEscapes: true
