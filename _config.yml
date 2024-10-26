@@ -2,6 +2,7 @@ theme: minima
 title: "Physics Pages"
 description: "A place for discussing physics"
 mathjax: true
+baseurl: "/physics"
 author: Damitr
 markdown: kramdown
 
