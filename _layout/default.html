@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Latin+Modern+Roman:400,400i,700,700i|Latin+Modern+Sans:400,400i,700,700i|Latin+Modern+Sans+Caps:400&display=swap">
+
+  <!-- Inline CSS Styles -->
+  <style>
+    body { font-family: 'Latin Modern Roman', serif; }
+    h1 { font-family: 'Latin Modern Sans', sans-serif; }
+    .italic { font-style: italic; }
+    .bold { font-weight: bold; }
+    .small-caps { font-family: 'Latin Modern Sans Caps', sans-serif; font-variant: small-caps; }
+  </style>
+
+  <!-- MathJax Script -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  {%- include head.html -%}
+</head>
+
+<body>
+  {%- include header.html -%}
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      {{ content }}
+    </div>
+  </main>
+  
+  <p>Tagged:
+    {% for tag in page.tags %}
+      <a class="post" href="/tag/{{tag}}">#{{tag}}</a>{% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+  </p>
+
+  {%- include footer.html -%}
+</body>
+</html>
