@@ -9,8 +9,10 @@ This is a space to discuss principles, problems, perspectives, practices, philos
 
 ## Recent Posts
 
-- [Post Title 1](link-to-post-1)
-- [Post Title 2](link-to-post-2)
-- [Post Title 3](link-to-post-3)
+<ul>
+  {% for post in site.posts %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %d, %Y" }}</li>
+  {% endfor %}
+</ul>
 
 Feel free to explore and share your thoughts!
