@@ -26,7 +26,7 @@ F & = \frac{1}{4 \pi \epsilon_{0}}\frac{1 \, \mu \times 1 \, \mu \, C^{2}}{ (0.3
 
 ### 1.11.2. A pith ball suspended on a silk thread has a charge of $10 \, nC$. Another ball carrying the same charge is suspended at the same height at a certain distance from the first ball (Fig. 20). As a result of mutual repulsion, the balls diverge apart by $10\, cm$. By what angle are their threads declined from the vertical? The mass of each ball is $0.1\, g$. 
 
-![Figure 20: To Exercise 1.11.2. To find the angle of threads from the vertical](/physics/assets/figs/landsberg/vol-2/ch-01/charge-repulsion.jpg)
+![Figure 20: To Exercise 1.11.2. To find the angle of threads from the vertical](/assets/figs/landsberg/vol-2/ch-01/charge-repulsion.jpg)
 
 Since the balls have the same charge they will repel each other with force given by Coulomb's law. This force will create the divergence in the balls from the vertical, that is, the total force on the balls will be equal to sum of gravitational force acting vertically downwards and electric force acting horizontally. Let us first calculate the repelling force between the two balls given by Coulomb's Law.
 
