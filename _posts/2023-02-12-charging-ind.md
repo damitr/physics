@@ -12,7 +12,7 @@ date: 2023-02-12
 ### 1.8.1 Explain the method of determining the sign of the charge on electroscope, shown in Fig. 17.
 
 
-![Figure 17: Determination of the sign of an unknown charge. When a like charge is brought close, the electroscope leaves diverge to a still larger angle, while when an unlike charge is brought close, the leaves collapse.](/physics/assets/figs/landsberg/vol-2/ch-01/electroscope-charge.jpg)
+![Figure 17: Determination of the sign of an unknown charge. When a like charge is brought close, the electroscope leaves diverge to a still larger angle, while when an unlike charge is brought close, the leaves collapse.](/assets/figs/landsberg/vol-2/ch-01/electroscope-charge.jpg)
 
 Electric charges are of two types labelled arbitrarily as negative and positive. Two fundamental facts about electric charges are that 
 
