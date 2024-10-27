@@ -6,7 +6,6 @@
   <title>{{ page.title | default: site.title }}</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Latin+Modern+Roman:400,400i,700,700i|Latin+Modern+Sans:400,400i,700,700i|Latin+Modern+Sans+Caps:400&display=swap">
 
-  <!-- Inline CSS Styles -->
   <style>
     body { font-family: 'Latin Modern Roman', serif; }
     h1 { font-family: 'Latin Modern Sans', sans-serif; }
@@ -15,30 +14,8 @@
     .small-caps { font-family: 'Latin Modern Sans Caps', sans-serif; font-variant: small-caps; }
   </style>
 
-  <!-- MathJax Script -->
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script>
-    window.MathJax = {
-      tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']],
-        displayMath: [['$$', '$$'], ['\\[', '\\]']],
-      },
-      options: {
-        renderActions: {
-          findScript: [10, function (doc) {
-            if (!doc.isDHTML) {
-              // Do not process this for non-DHTML output
-              return;
-            }
-            // Add MathJax scripts dynamically
-            const script = document.createElement('script');
-            script.src = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
-            document.head.appendChild(script);
-          }, '']
-        }
-      }
-    };
-  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+
   {%- include head.html -%}
 </head>
 
@@ -50,7 +27,7 @@
       {{ content }}
     </div>
   </main>
-  
+
   <p>Tagged:
     {% for tag in page.tags %}
       <a class="post" href="/tag/{{ tag | slugify }}">#{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
